@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tabular_augmentation"
-version = "0.0.17"
+version = "0.0.18"
 authors = [
     { name = "zhuxiaofei", email = "dylan@zhxfei.com" },
 ]
@@ -34,7 +34,8 @@ dependencies = [
     "tomli==1.2.2",
     "tomli-w==0.4.0",
     "optuna==2.10.1",
-    "tqdm"
+    "tqdm",
+    "rtdl"
 ]
 
 [project.urls]
