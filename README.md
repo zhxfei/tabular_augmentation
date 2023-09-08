@@ -1,7 +1,7 @@
 # Description
 
-`tabular_augmentation` contains some classical and noval methods used for data augmentation, it makes tabular data
-augmentation easier.
+`tabular_augmentation` contains some classical and novel methods used for data augmentation, making tabular data
+augmentation easier, especially for few-shot learning case.
 
 # Usage
 
@@ -51,3 +51,25 @@ x_synthesis, y_synthesis = ddpm_synthesis(
 tabular_model_test(x_synthesis, y_synthesis, x_test, y_test, model_name='xgb')
 
 ```
+# Example
+For details, please refer to  [example.ipynb](https://github.com/zhxfei/tabular_augmentation/blob/master/example.ipynb)
+
+# Cite
+#### SMOTE
+[imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn)
+
+#### MIXUP
+[ICLR' 18]mixup: BEYOND EMPIRICAL RISK MINIMIZATION [Mixup](https://github.com/facebookresearch/mixup-cifar10)
+
+[ICLR' 22]Noisy Feature Mixup
+[NoisyMixup](https://github.com/erichson/NFM)
+
+[ECCV' 20]Remix: Rebalanced Mixup
+
+#### CTGAN/TVAE
+[NIPS' 19]Modeling Tabular data using Conditional GAN
+[CTGAN](https://github.com/sdv-dev/CTGAN)
+
+#### TabDDPM
+[ICML' 23] TabDDPM: Modelling Tabular Data with Diffusion Models
+[TabDDPM](https://github.com/yandex-research/tab-ddpm)
