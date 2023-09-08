@@ -1,0 +1,5 @@
+.idea
+.eggs
+tabular_augmentation.egg-info
+build
+dist
